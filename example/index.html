@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<h1>jQuery Internationalization (i18n) Plugin</h1>
+		</header>
+		<section>
+			<h1 data-translate="lang.hello">Hello</h1>
+			<p data-translate="lang.sample">This text will be translated in 1 second.</p>
+		</section>
+		<section>
+			<code>
+				$('[data-translate]').i18n({forceLanguage:'fr'});
+			</code>
+		</section>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+	    <script type="text/javascript" src="../jquery.i18n.js"></script>
+	    <script type="text/javascript">
+	    	$(function() {
+	    		setTimeout(function(){
+	    			$('[data-translate]').i18n({forceLanguage:'fr'});
+	    		},1000);
+	    	});
+	    </script>
+
+	</body>
+</html>
