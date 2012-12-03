@@ -17,4 +17,5 @@ On the elements you wish translated to your desired language from your language 
 
 	$('[data-translate]').i18n();
 
-[![endorse](http://api.coderwall.com/edgeui/endorsecount.png)](http://coderwall.com/edgeui)
+<a href="https://twitter.com/share" class="twitter-share-button" data-size="large">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
