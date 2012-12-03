@@ -16,3 +16,5 @@ To start getting your HTML5 files supporting international languages start by in
 On the elements you wish translated to your desired language from your language file use put data-attributes on those elements called `data-translate=""`.
 
 	$('[data-translate]').i18n();
+
+[![endorse](http://api.coderwall.com/edgeui/endorsecount.png)](http://coderwall.com/edgeui)
