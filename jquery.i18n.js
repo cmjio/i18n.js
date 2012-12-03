@@ -1,3 +1,9 @@
+/**
+ * jQuery i18n Plugin
+ * Author: Chris Johnson
+ * Contact: me@chrismj.net
+ */
+
 (function($) {
 // What does the pluginName plugin do?
 $.fn.i18n = function(options) {
